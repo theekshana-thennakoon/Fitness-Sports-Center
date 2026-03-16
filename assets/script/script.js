@@ -11,6 +11,9 @@ function validate(id, check) {
     return ok;
 }
 
+// Set current year in footer
+document.getElementById("year").textContent = new Date().getFullYear();
+
 // Formspree submission
 document.getElementById('contactForm').addEventListener('submit', async function (e) {
     e.preventDefault();

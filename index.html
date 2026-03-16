@@ -514,13 +514,19 @@
                     </ul>
                 </div>
             </div>
-            <div class="footer-bottom text-center py-3">© 2023 <span>Fitness Sports Center</span>. All rights reserved.
+            <div class="footer-bottom text-center py-3">© <date id="year"></date> <span>Fitness Sports Center</span>.
+                All rights reserved.
             </div>
         </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/script/script.js"></script>
+
+    <script>
+        // Set current year in footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
