@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Sports Center</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+
+    <!-- ── NAVBAR ── -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="logo-circle">
+                    <img src="./assets/images/logo.jpg" alt="FSC Logo" onerror="this.parentElement.innerHTML='FSC'" />
+                </div>
+                <div class="nl-text">
+                    <span class="t1">Fitness</span>
+                    <span class="t2">Sports Center</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plans">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trainers">Trainers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-2"><a class="nav-link btn-nav-cta" href="#plans">Join Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container py-5">
+            <div class="row align-items-center min-vh-100 py-5">
+                <!-- Left content -->
+                <div class="col-lg-6 col-md-8 fade-up">
+                    <div class="hero-badge mb-4">⭐ Est. 2023 — Now Accepting Members</div>
+                    <h1 class="hero-title mb-4">Train Hard.<br><span>Rise Stronger.</span><br>Every Day.</h1>
+                    <p class="hero-sub mb-4">State-of-the-art equipment, certified trainers, and a community that pushes
+                        you to your limit. Your transformation starts the moment you walk in.</p>
+                    <div class="d-flex flex-wrap gap-3 mb-5">
+                        <a href="#plans" class="btn-gold">View Membership Plans</a>
+                        <a href="#about" class="btn-ghost">Learn More</a>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-auto">
+                            <div class="stat-val">50+</div>
+                            <div class="stat-label">Expert Trainers</div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="stat-val">200+</div>
+                            <div class="stat-label">Equipment Units</div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="stat-val">5K+</div>
+                            <div class="stat-label">Happy Members</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right: Logo in circle -->
+                <div class="col-lg-6 d-none d-lg-flex justify-content-center fade-up">
+                    <div class="hero-logo-circle">
+                        <img src="./assets/images/logo.jpg" alt="Fitness Sports Center"
+                            onerror="this.style.objectFit='contain';this.style.padding='2rem';this.src='./assets/images/logo.jpg'" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="py-6" style="padding:6rem 0;background:var(--brown);">
+        <div class="container">
+            <div class="row align-items-center g-5 reveal">
+                <div class="col-lg-5">
+                    <div class="about-logo-box">
+                        <img src="./assets/images/logo.jpg" alt="Fitness Sports Center Logo"
+                            onerror="this.style.padding='1rem';" />
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="sec-label gold">About Us</div>
+                    <div class="gold-bar"></div>
+                    <h2 class="sec-title mb-3">More Than a Gym.<br>A Lifestyle.</h2>
+                    <p class="sec-sub mb-4">Fitness Sports Center was founded in 2023 on the belief that fitness should
+                        be accessible, motivating, and effective for everyone — from complete beginners to elite
+                        athletes.</p>
+                    <div class="d-flex flex-column gap-3">
+                        <div class="d-flex gap-3 align-items-start">
+                            <div class="about-icon-box">🏆</div>
+                            <div>
+                                <h6 class="fw-bold text-light mb-1">Premium Facility</h6>
+                                <p class="text-secondary mb-0" style="font-size:.85rem;">State-of-the-art equipment and
+                                    world-class amenities built for serious athletes.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 align-items-start">
+                            <div class="about-icon-box">👥</div>
+                            <div>
+                                <h6 class="fw-bold text-light mb-1">Expert Community</h6>
+                                <p class="text-secondary mb-0" style="font-size:.85rem;">Certified coaches and a
+                                    supportive community to keep you accountable and motivated.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 align-items-start">
+                            <div class="about-icon-box">📈</div>
+                            <div>
+                                <h6 class="fw-bold text-light mb-1">Proven Results</h6>
+                                <p class="text-secondary mb-0" style="font-size:.85rem;">Members achieve real,
+                                    measurable goals with our structured training programs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── WHY CHOOSE US ── -->
+    <section id="why" style="padding:6rem 0;background:var(--brown);border-top:1px solid #2a1f0a;">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <div class="sec-label" style="color:var(--gold);">Why Choose Us?</div>
+                <h2 class="sec-title text-uppercase">Push Your Limits Forward</h2>
+            </div>
+            <div class="row g-4 reveal">
+                <div class="col-lg-3 col-md-6">
+                    <div class="why-card">
+                        <div class="why-icon-wrap">🏋️‍♂️</div>
+                        <h5>Modern Equipment</h5>
+                        <p>Our gym is equipped with the latest state-of-the-art fitness machines and technology,
+                            designed to deliver maximum performance and safety for every fitness level and goal.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="why-card">
+                        <div class="why-icon-wrap">🥗</div>
+                        <h5>Healthy Nutrition Plan</h5>
+                        <p>We go beyond the gym floor. With our meal plans, you'll get nutritious, ready-to-follow food
+                            guidance that fuels performance and supports lasting health.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="why-card">
+                        <div class="why-icon-wrap">💪</div>
+                        <h5>Professional Training Plan</h5>
+                        <p>Our certified trainers create structured, results-driven programs that help you train
+                            smarter, not harder. From strength to fat loss, we've got the perfect plan for you.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="why-card">
+                        <div class="why-icon-wrap">🎯</div>
+                        <h5>Unique to Your Needs</h5>
+                        <p>Your fitness journey is personal, and so is our approach. Everything we offer is uniquely
+                            crafted to match your individual needs and help you reach your goals faster.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── SERVICES ── -->
+    <section id="services" style="padding:6rem 0;background:var(--dark);">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <h2 class="sec-title text-uppercase" style="letter-spacing:2px;">Service We Offer</h2>
+            </div>
+            <div class="row g-3 reveal">
+                <div class="col-lg-4 col-md-6">
+                    <div class="svc-card">
+                        <div class="svc-bg"
+                            style="background:url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80') center/cover no-repeat;font-size:0;">
+                        </div>
+                        <div class="svc-overlay"></div>
+                        <div class="svc-label"><span>1-on-1 Training</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="svc-card">
+                        <div class="svc-bg"
+                            style="background:url('https://images.unsplash.com/photo-1607962837359-5e7e89f86776?w=600&q=80') center/cover no-repeat;font-size:0;">
+                        </div>
+                        <div class="svc-overlay"></div>
+                        <div class="svc-label"><span>Elderly Training</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="svc-card">
+                        <div class="svc-bg"
+                            style="background:url('https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80') center/cover no-repeat;font-size:0;">
+                        </div>
+                        <div class="svc-overlay"></div>
+                        <div class="svc-label"><span>Pre &amp; Postnatal Training</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="svc-card">
+                        <div class="svc-bg"
+                            style="background:url('https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&q=80') center/cover no-repeat;font-size:0;">
+                        </div>
+                        <div class="svc-overlay"></div>
+                        <div class="svc-label"><span>Body Conditioning Training</span></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="svc-card">
+                        <div class="svc-bg"
+                            style="background:url('https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=800&q=80') center/cover no-repeat;font-size:0;">
+                        </div>
+                        <div class="svc-overlay"></div>
+                        <div class="svc-label"><span>Muscle Rehabilitation Training</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PLANS ── -->
+    <section id="plans" style="padding:6rem 0;background:var(--brown);">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <div class="sec-label gold">Monthly Deals</div>
+                <h2 class="sec-title text-uppercase" style="letter-spacing:1px;">Choose Your Package</h2>
+            </div>
+            <div class="row g-3 reveal">
+                <!-- Plan 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="plan-card active">
+                        <div class="plan-tag">Package</div>
+                        <div class="plan-name">4LB Glow Up<br>(Ladies)</div>
+                        <div class="plan-price">Rs.40,000</div>
+                        <div class="plan-location">&nbsp;</div>
+                        <ul class="plan-feats">
+                            <li>Fully equipment gym</li>
+                            <li>Ladies Only Area / Unisex</li>
+                            <li>Certified trainers</li>
+                            <li>Shower &amp; Changing room facilities</li>
+                            <li>Free meal plan &amp; workout schedules</li>
+                            <li>Body assessment</li>
+                            <li>Ample parking</li>
+                        </ul>
+                        <button class="enroll-btn"
+                            onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Enroll
+                            Now</button>
+                    </div>
+                </div>
+                <!-- Plan 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="plan-card">
+                        <div class="plan-tag">Package</div>
+                        <div class="plan-name">4LB Glow Up<br>(Ladies)</div>
+                        <div class="plan-price">Rs.60,000</div>
+                        <div class="plan-location">Colombo 07</div>
+                        <ul class="plan-feats">
+                            <li>Fully equipment gym</li>
+                            <li>Swimming pool, sauna &amp; steam room</li>
+                            <li>Certified trainers</li>
+                            <li>Access to all 4 branches</li>
+                            <li>In-house supplements store</li>
+                            <li>Shower &amp; Changing room facilities</li>
+                            <li>Free meal plan &amp; workout schedules</li>
+                            <li>Body assessment</li>
+                            <li>Ample parking</li>
+                        </ul>
+                        <button class="enroll-btn"
+                            onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Enroll
+                            Now</button>
+                    </div>
+                </div>
+                <!-- Plan 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="plan-card">
+                        <div class="plan-tag">Package</div>
+                        <div class="plan-name">4LB Glow Up<br>(Ladies)</div>
+                        <div class="plan-price">Rs.45,000</div>
+                        <div class="plan-location">Ja Ela</div>
+                        <ul class="plan-feats">
+                            <li>Fully equipment gym</li>
+                            <li>Certified trainers</li>
+                            <li>Shower &amp; Changing room facilities</li>
+                            <li>Body assessment</li>
+                            <li>Ample parking</li>
+                        </ul>
+                        <button class="enroll-btn"
+                            onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Enroll
+                            Now</button>
+                    </div>
+                </div>
+                <!-- Plan 4 Soon -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="plan-card">
+                        <div class="soon-badge">Offer Soon!</div>
+                        <div class="plan-price mt-2">Rs.80,000</div>
+                        <div class="plan-location">World Trade Center</div>
+                        <ul class="plan-feats">
+                            <li>Body assessment</li>
+                            <li>Free meal plan &amp; workout schedules</li>
+                            <li>In-house supplements store</li>
+                            <li>Shower &amp; Changing room facilities</li>
+                            <li>Certified trainers</li>
+                            <li>Fully equipment gym</li>
+                        </ul>
+                        <button class="enroll-btn" style="border-color:#444;color:#666;cursor:not-allowed;"
+                            disabled>Coming Soon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── TRAINERS ── -->
+    <section id="trainers" style="padding:6rem 0;background:var(--black);">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <div class="sec-label gold">Our Team</div>
+                <div class="gold-bar center"></div>
+                <h2 class="sec-title">Meet Your Coaches</h2>
+                <p class="sec-sub mx-auto" style="max-width:500px;">Certified, passionate, and dedicated to your
+                    success.</p>
+            </div>
+            <div class="row g-4 reveal">
+                <div class="col-lg-3 col-md-6">
+                    <div class="trainer-card">
+                        <div class="trainer-img">
+                            <img src="./assets/images/trainers/trainer-1.jfif" alt="Marcus Rivera"
+                                style="width:100%;height:100%;object-fit:cover;" />
+                        </div>
+                        <div class="p-3">
+                            <h6 class="fw-bold text-light mb-1">Marcus Rivera</h6>
+                            <div class="trainer-role">Strength & Conditioning</div>
+                            <p class="text-secondary mb-0" style="font-size:.83rem;">NSCA-certified with 10+ years
+                                helping athletes build functional power.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="trainer-card">
+                        <div class="trainer-img">
+                            <img src="./assets/images/trainers/trainer-2.jfif" alt="Aisha Patel"
+                                style="width:100%;height:100%;object-fit:cover;" />
+                        </div>
+                        <div class="p-3">
+                            <h6 class="fw-bold text-light mb-1">Aisha Patel</h6>
+                            <div class="trainer-role">Yoga & Wellness</div>
+                            <p class="text-secondary mb-0" style="font-size:.83rem;">500-hour RYT certified. Specializes
+                                in restorative yoga and pranayama.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="trainer-card">
+                        <div class="trainer-img">
+                            <img src="./assets/images/trainers/trainer-3.jfif" alt="Jake Thompson"
+                                style="width:100%;height:100%;object-fit:cover;" />
+                        </div>
+                        <div class="p-3">
+                            <h6 class="fw-bold text-light mb-1">Jake Thompson</h6>
+                            <div class="trainer-role">Boxing & MMA</div>
+                            <p class="text-secondary mb-0" style="font-size:.83rem;">Former professional fighter
+                                teaching technique, discipline, and self-defence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="trainer-card">
+                        <div class="trainer-img">
+                            <img src="./assets/images/trainers/trainer-4.avif" alt="Sophie Chen"
+                                style="width:100%;height:100%;object-fit:cover;" />
+                        </div>
+                        <div class="p-3">
+                            <h6 class="fw-bold text-light mb-1">Sophie Chen</h6>
+                            <div class="trainer-role">Nutrition & Weight Loss</div>
+                            <p class="text-secondary mb-0" style="font-size:.83rem;">Registered dietitian transforming
+                                bodies through science-backed nutrition.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" style="padding:6rem 0;background:var(--brown);">
+        <div class="container">
+            <div class="row g-5 reveal">
+                <div class="col-lg-5">
+                    <div class="sec-label gold">Get In Touch</div>
+                    <div class="gold-bar"></div>
+                    <h2 class="sec-title mb-3">Start Your Journey Today</h2>
+                    <p class="sec-sub mb-4">Questions about membership or programs? Fill out the form and we'll be in
+                        touch within 24 hours.</p>
+                    <div class="d-flex flex-column gap-4">
+                        <div class="d-flex gap-3 align-items-start">
+                            <div class="contact-info-icon">📍</div>
+                            <div>
+                                <h6 class="fw-bold text-light mb-1">Locations</h6>
+                                <p class="text-secondary mb-0" style="font-size:.85rem;">Colombo 07 • Ja Ela<br>World
+                                    Trade Center (Coming Soon)</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 align-items-start">
+                            <div class="contact-info-icon">⏰</div>
+                            <div>
+                                <h6 class="fw-bold text-light mb-1">Hours</h6>
+                                <p class="text-secondary mb-0" style="font-size:.85rem;">Mon–Fri: 5 AM – 11
+                                    PM<br>Sat–Sun: 7 AM – 9 PM</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 align-items-start">
+                            <div class="contact-info-icon">📞</div>
+                            <div>
+                                <h6 class="fw-bold text-light mb-1">Contact</h6>
+                                <p class="text-secondary mb-0" style="font-size:.85rem;">+94 11 234
+                                    5678<br>hello@fitnesssportscenter.lk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form-box">
+                        <h5 class="fw-bold text-light mb-4">Send Us a Message</h5>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label class="form-label text-light" style="font-size:.82rem;font-weight:600;">Full Name
+                                    *</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" />
+                                <div class="invalid-feedback">Please enter your name (min. 2 characters).</div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label text-light" style="font-size:.82rem;font-weight:600;">Email
+                                    Address *</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="john@example.com" />
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label text-light" style="font-size:.82rem;font-weight:600;">Message
+                                    *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5"
+                                    placeholder="Tell us about your fitness goals..."></textarea>
+                                <div class="invalid-feedback">Please enter a message (min. 10 characters).</div>
+                            </div>
+                            <button type="submit" class="btn-submit" id="subBtn">Send Message →</button>
+                            <div class="alert mt-3 d-none" id="okMsg"
+                                style="background:rgba(39,174,96,.08);border:1px solid #27ae60;color:#2ecc71;border-radius:8px;">
+                                ✅ Message sent! We'll get back to you within 24 hours.
+                            </div>
+                            <div class="alert mt-3 d-none" id="errMsg"
+                                style="background:rgba(192,57,43,.08);border:1px solid #c0392b;color:#e74c3c;border-radius:8px;">
+                                ❌ Something went wrong. Please try again.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer style="padding:3rem 0 1.5rem;">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-5 col-md-6">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="footer-logo-circle">
+                            <img src="./assets/images/logo.jpg" alt="FSC"
+                                onerror="this.parentElement.innerHTML='FSC'" />
+                        </div>
+                        <div>
+                            <div
+                                style="font-family:'Montserrat',sans-serif;font-weight:900;font-size:.9rem;color:var(--cream);text-transform:uppercase;letter-spacing:1px;">
+                                Fitness</div>
+                            <div
+                                style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:.6rem;color:var(--gold);text-transform:uppercase;letter-spacing:2px;">
+                                Sports Center</div>
+                        </div>
+                    </div>
+                    <p class="brand-desc">Forging stronger bodies and stronger minds since 2023. Your transformation is
+                        our mission.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="footer-col-title">Quick Links</div>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#why">Why Choose Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#plans">Packages</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-3 col-6">
+                    <div class="footer-col-title">Services</div>
+                    <ul class="footer-links">
+                        <li><a href="#services">1-on-1 Training</a></li>
+                        <li><a href="#services">Elderly Training</a></li>
+                        <li><a href="#services">Pre &amp; Postnatal Training</a></li>
+                        <li><a href="#services">Body Conditioning</a></li>
+                        <li><a href="#services">Muscle Rehabilitation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom text-center py-3">© 2023 <span>Fitness Sports Center</span>. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
